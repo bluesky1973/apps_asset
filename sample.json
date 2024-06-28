@@ -1,23 +1,23 @@
 [
   {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-    "name": "pnp-powerapps-samples-HelpDesk-theme",
+    "name": "pnp-powerapps-samples-ClockTimePickerComponent",
     "version": "1.0.0.0",
     "source": "pnp",
-    "creationDateTime": "2021-05-19T00:00:00.000Z",
-    "updateDateTime": "2021-05-19T00:00:00.000Z",
-    "title": "Helpdesk",
-    "shortDescription": "Beautiful template for HelpDesk applications, inspiration for you.",
+    "creationDateTime": "2022-12-04T00:00:00.000Z",
+    "updateDateTime": "2022-12-04T00:00:00.000Z",
+    "title": "Clock Time Picker Component",
+    "shortDescription": "A re-usable component that allows you to select specific times in HH and hh formats through a user friendly and efficient UX.",
     "longDescription": [
-      "Beautiful template for HelpDesk applications, inspiration for you, Advantage: Easy to install, Easy to customize, Interface design time reduction and Higher productivity at work."
+      "A re-usable component that allows you to select specific times in HH and hh formats through a user friendly and efficient UX."
     ],
-    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/HelpDesk-theme",
+    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/ClockTimePickerComponent",
     "products": [
       "Power Apps",
       "Power Platform"
     ],
     "tags": [
-      "TEMPLATE", "HELPDESK"
+      "CLOCK", "COMPONENT", "TIME"
     ],
     "categories": [
       "POWERAPPS"
@@ -33,7 +33,7 @@
       },
       {
         "key": "POWERAPPS-EXPERIMENTAL",
-        "value": "No"
+        "value": "Yes"
       },
       {
         "key": "POWERAPPS-PREMIUM",
@@ -52,30 +52,29 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/HelpDesk-theme/assets/screen1.png?raw=true",
-        "alt": "Home"
+        "url": "https://raw.githubusercontent.com/pnp/powerapps-samples/main/samples/ClockTimePickerComponent/assets/preview.gif",
+        "alt": "Preview GIF"
       },
       {
         "type": "image",
-        "order": 101,
-        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/HelpDesk-theme/assets/screen2.png?raw=true",
-        "alt": "New Ticket"
-      },
-      {
-        "type": "image",
-        "order": 102,
-        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/HelpDesk-theme/assets/screen3.png?raw=true",
-        "alt": "List Tickets"
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/powerapps-samples/main/samples/ClockTimePickerComponent/assets/preview.png",
+        "alt": "Preview PNG"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "neiydarry28",
-        "name": "Neiy Briceño",
-        "pictureUrl": "https://avatars.githubusercontent.com/u/92815715?v=4"
+        "gitHubAccount": "NatiTurts",
+        "name": "Nati Turtledove",
+        "pictureUrl": "https://github.com/NatiTurts.png"
       }
     ],
     "references": [
+      {
+        "name": "Create a component for canvas apps",
+        "description": "Components are reusable building blocks for canvas apps so that app makers can create custom controls to use inside an app, or across apps using a component library",
+        "url": "https://docs.microsoft.com/powerapps/maker/canvas-apps/"
+      },
       {
         "name": "Overview of creating apps in Power Apps",
         "description": "Power Apps is a high-productivity development platform for business apps.",
