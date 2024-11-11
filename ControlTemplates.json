@@ -27,47 +27,19 @@
     "OverridableProperties": {},
     "Version": "2.2.0"
   },
-  "combobox": {
+  "circle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/combobox",
+    "Id": "http://microsoft.com/appmagic/shapes/circle",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "combobox",
+    "Name": "circle",
     "OverridableProperties": {},
-    "Version": "2.4.0"
-  },
-  "dataTable": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dataTable",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "dataTable",
-    "OverridableProperties": {},
-    "Version": "1.0.2"
-  },
-  "dataTableColumn": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dataTableColumn",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "dataTableColumn",
-    "OverridableProperties": {},
-    "Version": "1.0.1"
+    "Version": "2.3.0"
   },
   "dropdown": {
     "CustomGroupControlTemplateName": "",
@@ -82,6 +54,20 @@
     "Name": "dropdown",
     "OverridableProperties": {},
     "Version": "2.3.1"
+  },
+  "group": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/group",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "group",
+    "OverridableProperties": {},
+    "Version": "1"
   },
   "groupContainer": {
     "FirstParty": true,
@@ -107,20 +93,6 @@
     "OverridableProperties": {},
     "Version": "2.5.0"
   },
-  "image": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/image",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "image",
-    "OverridableProperties": {},
-    "Version": "2.2.0"
-  },
   "label": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -133,21 +105,21 @@
     "LastModifiedTimestamp": "0",
     "Name": "label",
     "OverridableProperties": {},
-    "Version": "2.5.0"
+    "Version": "2.5.1"
   },
-  "listbox": {
+  "rectangle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/listbox",
+    "Id": "http://microsoft.com/appmagic/shapes/rectangle",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "listbox",
+    "Name": "rectangle",
     "OverridableProperties": {},
-    "Version": "2.2.0"
+    "Version": "2.3.0"
   },
   "screen": {
     "CustomGroupControlTemplateName": "",
@@ -175,20 +147,6 @@
     "LastModifiedTimestamp": "0",
     "Name": "text",
     "OverridableProperties": {},
-    "Version": "2.3.1"
-  },
-  "toggleSwitch": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/toggleSwitch",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "toggleSwitch",
-    "OverridableProperties": {},
-    "Version": "2.1.0"
+    "Version": "2.3.2"
   }
 }
