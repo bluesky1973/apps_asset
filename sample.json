@@ -1,23 +1,24 @@
 [
   {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-    "name": "employee-survey-modern-control",
+    "name": "sharepoint-events",
     "version": "1.0.0.0",
     "source": "pnp",
-    "creationDateTime": "2023-04-18T00:00:00.000Z",
-    "updateDateTime": "2023-04-18T00:00:00.000Z",
-    "title": "Employee Engagement Survey - Modern Controls",
-    "shortDescription": "This is a an App like 'Employee Engagement Survey' app's sample by Microsoft (you can create it by 'Start from template' section when you creating new Power App) but this one using (when possible) modern controls.",
+    "creationDateTime": "2022-02-24T00:00:00.000Z",
+    "updateDateTime": "2022-02-24T00:00:00.000Z",
+    "title": "SharePoint Event Registration Power App",
+    "shortDescription": "Proof of concept Power App that is designed to be embedded in a SharePoint site/page, offering event registration functionality. An alternative to the OOTB Events Web Part.",
     "longDescription": [
-      "This is a an App like 'Employee Engagement Survey' app's sample by Microsoft (you can create it by 'Start from template' section when you creating new Power App) but this one using (when possible) modern controls. These new controls (In Preview) are based on Fluent UI and you can use it to build application with professional UI."
+      "Proof of concept Power App that is designed to be embedded in a SharePoint site/page, offering event registration functionality. An alternative to the OOTB Events Web Part."
     ],
-    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/employee-survey-modern-control",
+    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/sharepoint-events",
     "products": [
       "Power Apps",
-      "Power Platform"
+      "Power Platform",
+      "SharePoint"
     ],
     "tags": [
-      "Power Apps","Power Platform"
+      "Power Apps","SharePoint","Events"
     ],
     "categories": [
       "POWERAPPS"
@@ -52,27 +53,39 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/employee-survey-modern-control/assets/employee-survey-modern-controls.gif?raw=true",
-        "alt": "Animated GIF of the solution"
+        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "alt": "Theme Light"
+      },
+      {
+        "type": "image",
+        "order": 101,
+        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "alt": "Theme Dark"
+      },
+      {
+        "type": "image",
+        "order": 102,
+        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "alt": "Phone Preview"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "angelogulisano",
-        "name": "Angelo Gulisano",
-        "pictureUrl": "https://github.com/angelogulisano.png"
+        "gitHubAccount": "alexc-MSFT",
+        "name": "Alex Clark",
+        "pictureUrl": "https://github.com/alexc-MSFT.png"
       }
     ],
     "references": [
       {
-        "name": "Modern controls coming to canvas apps",
-        "description": "Modern controls coming to canvas apps.",
-        "url": "https://powerapps.microsoft.com/en-us/blog/modern-controls-coming-to-canvas-apps/"
+        "name": "Overview of creating apps in Power Apps",
+        "description": "Power Apps is a high-productivity development platform for business apps.",
+        "url": "https://docs.microsoft.com/powerapps/maker/"
       },
       {
-        "name": "Blog about modern controls",
-        "description": "Blog about modern controls.",
-        "url": "https://angelogulisano.com/power-apps-modern-controls/"
+        "name": "Power Apps canvas apps documentation",
+        "description": "Design and build a business app from a canvas in Microsoft Power Apps with data from a variety of sources without writing any code using traditional programming languages, such as C#.",
+        "url": "https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/"
       }
     ]
   }
