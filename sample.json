@@ -1,24 +1,23 @@
 [
   {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-    "name": "sharepoint-events",
+    "name": "svg-us-map",
     "version": "1.0.0.0",
     "source": "pnp",
-    "creationDateTime": "2022-02-24T00:00:00.000Z",
-    "updateDateTime": "2022-02-24T00:00:00.000Z",
-    "title": "SharePoint Event Registration Power App",
-    "shortDescription": "Proof of concept Power App that is designed to be embedded in a SharePoint site/page, offering event registration functionality. An alternative to the OOTB Events Web Part.",
+    "creationDateTime": "2022-03-05T00:00:00.000Z",
+    "updateDateTime": "2022-03-05T00:00:00.000Z",
+    "title": "US Map with SVG Images",
+    "shortDescription": "This sample provides an idea of using SVG images within Power Apps",
     "longDescription": [
-      "Proof of concept Power App that is designed to be embedded in a SharePoint site/page, offering event registration functionality. An alternative to the OOTB Events Web Part."
+      "This sample provides an idea of using SVG images within Power Apps. Also, showcases how powerful operations we can perform by using SVG images within Power Apps."
     ],
-    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/sharepoint-events",
+    "url": "https://github.com/pnp/powerapps-samples/tree/main/samples/US-Map-with-SVG-Images",
     "products": [
       "Power Apps",
-      "Power Platform",
-      "SharePoint"
+      "Power Platform"
     ],
     "tags": [
-      "Power Apps","SharePoint","Events"
+      "Power Apps","SVG"
     ],
     "categories": [
       "POWERAPPS"
@@ -53,27 +52,27 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/US-Map-with-SVG-Images/assets/USMapPopulation.JPG?raw=true",
         "alt": "Theme Light"
       },
       {
         "type": "image",
         "order": 101,
-        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/US-Map-with-SVG-Images/assets/USMapStateSElection.JPG?raw=true",
         "alt": "Theme Dark"
       },
       {
         "type": "image",
         "order": 102,
-        "url": "https://github.com/pnp/powerapps-samples/raw/main/samples/sharepoint-events/assets/thumbnail.png?raw=true",
+        "url": "https://github.com/pnp/powerapps-samples/blob/main/samples/US-Map-with-SVG-Images/assets/USMapwithSVGImage.gif?raw=true",
         "alt": "Phone Preview"
       }
     ],
     "authors": [
       {
-        "gitHubAccount": "alexc-MSFT",
-        "name": "Alex Clark",
-        "pictureUrl": "https://github.com/alexc-MSFT.png"
+        "gitHubAccount": "rsk2013",
+        "name": "Krishna Rachakonda",
+        "pictureUrl": "https://github.com/rsk2013.png"
       }
     ],
     "references": [
